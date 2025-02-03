@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(70, 70, 70);
+}
+
+section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    min-height: 33vh;
+    padding: 10px;
+    background-color: rgb(129, 129, 129);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#progress-container {
+    position: relative;
+}
+
+#progress {
+    position: absolute;
+    background-color: green;
+    min-height: 5px;
+    width: 0%;
+}
+
+#progress-bg {
+    position: absolute;
+    background-color: lightgray;
+    min-height: 5px;
+    width: 100%;
+}
