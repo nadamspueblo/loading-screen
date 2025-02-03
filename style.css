@@ -1,5 +1,9 @@
 body {
     background-color: rgb(70, 70, 70);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 section {
@@ -8,13 +12,16 @@ section {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
-    min-height: 33vh;
-    padding: 10px;
+    padding: 20px;
+    padding-top: 60px;
     background-color: rgb(129, 129, 129);
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 4px;
+    box-shadow: 5px 5px 20px rgb(37, 36, 36);
+    cursor: inherit;
 }
 
 #progress-container {
@@ -33,4 +40,27 @@ section {
     background-color: lightgray;
     min-height: 5px;
     width: 100%;
+}
+
+#button-bar {
+    display: flex;
+    justify-content: end;
+}
+
+button {
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(129, 129, 129);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: goldenrod;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
 }
