@@ -31,14 +31,14 @@ section {
 #progress {
     position: absolute;
     background-color: green;
-    min-height: 5px;
+    min-height: 10px;
     width: 0%;
 }
 
 #progress-bg {
     position: absolute;
     background-color: lightgray;
-    min-height: 5px;
+    min-height: 10px;
     width: 100%;
 }
 
